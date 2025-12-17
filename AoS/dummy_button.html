@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anti-Gravity Mock Button</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f2f5;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            flex-direction: column;
+        }
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h2 {
+            margin-bottom: 24px;
+            color: #333;
+        }
+        .btn-accept {
+            background-color: #2e7d32; /* Green usually used for accept */
+            color: white;
+            padding: 12px 32px;
+            font-size: 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            transition: background-color 0.2s;
+            font-weight: bold;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .btn-accept:hover {
+            background-color: #1b5e20;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>承認テスト用画面</h2>
+        <p>下のボタンをスクショしてください (Win+Shift+S)</p>
+        <br>
+        <!-- ターゲットとなるボタン -->
+        <button class="btn-accept">
+            Accept Request
+        </button>
+    </div>
+</body>
+</html>

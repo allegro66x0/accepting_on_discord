@@ -1,0 +1,10 @@
+{
+    "DISCORD_TOKEN": "YOUR_TOKEN_HERE",
+    "CHANNEL_ID": 123456789012345678,
+    "TARGET_IMAGES": [
+        "button1.png",
+        "button2.png"
+    ],
+    "CONFIDENCE_LEVEL": 0.6,
+    "CHECK_INTERVAL": 5
+}

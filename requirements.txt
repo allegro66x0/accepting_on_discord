@@ -1,0 +1,8 @@
+# Core
+pyserial
+
+# Remote Approver Agent
+discord.py
+PyAutoGUI
+opencv-python
+pillow  # PyAutoGUI dependency, explicit is better
